@@ -2,7 +2,10 @@ header{
     background-color: #24292E;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #E2C98B
+    color: #E2C98B;
+    text-box: inherit;
+    height: 50px;
+    
     
 }
 
@@ -16,6 +19,7 @@ nav ul a{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: large;
     display: inline-block;
+  
     
 
 }
@@ -31,5 +35,19 @@ nav ul a:hover{
     color: #ebbb64;
     cursor:help;
     font-size: larger;
+    text-decoration: underline #C9A86A ;
+
+    
+}
+
+.galkep{
+    height: 400px;
+    width:400px;
+    display: flex;
+    border-color: #ebbb64;
+   
+}
+
+body{
     
 }
